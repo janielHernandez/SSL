@@ -1,6 +1,6 @@
 # Sintaxis y Semántica de los Lenguajes
 
-Curso: __K2008__
+Curso: __K2051__
 
 Año: __2018__
 
