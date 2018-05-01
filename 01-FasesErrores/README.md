@@ -3,17 +3,17 @@
 
 ### Autores de la resolución:
 
-Usuario github: _janielHernandez_
+Usuario github: __janielHernandez__
 
-Legajo:_1507679_
+Legajo:__1507679__
 
-Apellido: _Hernandez_
+Apellido: __Hernandez__
 
-Nombre: _Janiel_
+Nombre: __Janiel__
 
-Número y título del trabajo: _01-FasesErrores_
+Número y título del trabajo: __01-FasesErrores__
 
-Repositorios: _[Link](https://github.com/janielHernandez/SSL/tree/master/01-FasesErrores)_
+Repositorios: __[Link](https://github.com/janielHernandez/SSL/tree/master/01-FasesErrores)__
 
 
 ## Preprocesar hello2.c
@@ -43,32 +43,36 @@ etapa no se hace llamado a funciones externa.
   
 ### Transcripción del enunciado:
 
--Escribir hello2.c, que es una variante de hello.c
+- Escribir hello2.c, que es una variante de hello.c
+
  	#include <stdio.h>
  	int/*medio*/main(void){
  	int i=42;
  	prontf("La respuesta es %d\n");
 
--Preprocesar hello2.c, no compilar, y generar hello2.i. Analizar su contenido.
--Escribir hello3.c, una nueva variante:
+- Preprocesar hello2.c, no compilar, y generar hello2.i. Analizar su contenido.
+
+- Escribir hello3.c, una nueva variante:
 	int printf(const char *s, ...);
 	int main(void){
  	int i=42;
  	prontf("La respuesta es %d\n"
   );
--Investigar la semántica de la primera línea.
--Preprocesar hello3.c, no compilar, y generar hello3.i. Buscar diferencias entre hello3.c y hello3.
--Compilar el resultado y generar hello3.s, no ensamblar.
--Corregir  en  el  nuevo  archivo hello4.c y empezar  de  nuevo, generar hello4.s, no ensamblar.
--Investigar hello4.s.
--Ensamblar hello4.s en hello4.o, no vincular.
--Vincular hello4.o con la biblioteca estándar y generar el ejecutable.
--Corregir en hello5.c y generar el ejecutable.
--Ejecutar y analizar el resultado.
--Corregir en hello6.c y empezar de nuevo.
--Escribir hello7.c, una nueva variante:
+- Investigar la semántica de la primera línea.
+- Preprocesar hello3.c, no compilar, y generar hello3.i. Buscar diferencias entre hello3.c y hello3.
+- Compilar el resultado y generar hello3.s, no ensamblar.
+- Corregir  en  el  nuevo  archivo hello4.c y empezar  de  nuevo, generar hello4.s, no ensamblar.
+- Investigar hello4.s.
+- Ensamblar hello4.s en hello4.o, no vincular.
+- Vincular hello4.o con la biblioteca estándar y generar el ejecutable.
+- Corregir en hello5.c y generar el ejecutable.
+- Ejecutar y analizar el resultado.
+- Corregir en hello6.c y empezar de nuevo.
+- Escribir hello7.c, una nueva variante:
+
 	int main(void){
  	int i=42;
     printf("La respuesta es %d\n", i);
 	}
--Explicar porqué funciona.
+
+- Explicar porqué funciona.
