@@ -3,7 +3,7 @@
 
 ### Autores de la resolución:
 
-Usuario github: _janielHernande_
+Usuario github: _janielHernandez_
 
 Legajo:_1507679_
 
